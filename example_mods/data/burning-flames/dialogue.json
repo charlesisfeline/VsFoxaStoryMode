@@ -1,0 +1,165 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "port",
+			"boxState": "normal",
+			"expression": "",
+			"text": "so..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "angy",
+			"boxState": "normal",
+			"expression": "",
+			"text": "You really AREN'T going to leave."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "angy",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Are you? "
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "brep bappity  boop."
+		},
+		{
+			"speed": 0.06,
+			"portrait": "angy",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "port",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You know..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "angy",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You're REALLY making this harder than it needs to be..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "bip bep skoo de boop"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "bepoobe skoop!!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "port",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "...Don't make me fight you."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "angy",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I really DON'T want to do this tonight..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "bop beep."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "port",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Please..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "port",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Just go home..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "bope bepe!!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "angy",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Listen here, you Blue haired Twit..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "port",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "If you DON'T leave..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "angy",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": " I'll make sure you regret being born."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": ""
+		},
+		{
+			"speed": 0.05,
+			"portrait": "angy",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Mark my words..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "beep bop bippity boop."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "port",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "angy",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I guess I have no choice. "
+		}
+	]
+}

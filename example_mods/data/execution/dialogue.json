@@ -1,0 +1,95 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.025,
+			"portrait": "creation",
+			"boxState": "angry",
+			"expression": "",
+			"text": "I CAN'T TAKE THIS ANYMORE. "
+		},
+		{
+			"speed": 0.06,
+			"portrait": "bf",
+			"boxState": "angry",
+			"expression": "shocked",
+			"text": " "
+		},
+		{
+			"speed": 0.05,
+			"portrait": "creation",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "I GAVE YOU A WARNING."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "creation",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "AND EVEN AFTER THAT..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "creation",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "YOU STILL REFUSED TO LISTEN."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "creation",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "WHY CAN'T YOU JUST LEAVE!?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "Creation",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "IF YOU GET PAST ME, YOU WILL REGRET IT."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "creation",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "EVEN NOW..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "creation",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "IT'S OVER FOR YOU. "
+		},
+		{
+			"speed": 0.05,
+			"portrait": "creation",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "CURSE YOU."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "creation",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "I HOPE YOU AREN'T REMEMBERED."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "creation",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "THIS IS YOUR FAULT. "
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "beep..."
+		}
+	]
+}
