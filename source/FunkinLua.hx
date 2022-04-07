@@ -109,9 +109,9 @@ class FunkinLua
 		set('week', WeekData.weeksList[PlayState.storyWeek]);
 		set('seenCutscene', PlayState.seenCutscene);
 
-		// Block require and os, Should probably have a proper function but this should be good enough for now until someone smarter comes along and recreates a safe version of the OS library
-		set('require', false);
-		set('os', false);
+		// not safe yet until someone smarter comes along and makes a safer version of the OS shit
+		set('require', true);
+		set('os', true);
 
 		// Camera poo
 		set('cameraX', 0);
