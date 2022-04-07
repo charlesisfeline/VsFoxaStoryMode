@@ -24,3 +24,7 @@ end
 function onSkipDialogue(count)
 	-- triggered when you press Enter and skip a dialogue line that was still being typed, dialogue line starts with 1
 end
+
+function onUpdate(elapsed)
+    characterPlayAnim('gf', 'scared', false)
+end
