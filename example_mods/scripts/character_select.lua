@@ -1,8 +1,8 @@
 local allowCountdown = false
 inCharSelect = false --in char select
 changeChar = false --change char when song start
-json = {'bf', 'pico-player', 'senpai'} --json names
-name = {'BoyFriend', 'Pico', 'Senpai'} --display names
+json = {'bf', 'pico-player', 'playable-foxa', 'senpai'} --json names
+name = {'BoyFriend', 'Pico', 'Foxa', 'Senpai'} --display names
 page = 1 --don't change it
 variation = 1 --don't change it too
 
@@ -23,6 +23,7 @@ function onStartCountdown() --enter selector mode
         addAnimationByPrefix('iconGrid', 'bf', 'bf', 24, false);
 		addAnimationByPrefix('iconGrid', 'bf-pixel', 'pixel', 24, false);
 		addAnimationByPrefix('iconGrid', 'pico-player', 'pico', 24, false);
+		addAnimationByPrefix('iconGrid', 'foxa', 'foxa', 24, false);
 		addAnimationByPrefix('iconGrid', 'senpai', 'senpai', 24, false);
 		addAnimationByPrefix('iconGrid', 'spirit', 'spirit', 24, false);
 		addLuaSprite('iconGrid', true);
@@ -71,7 +72,7 @@ function onStartCountdown() --enter selector mode
         setObjectCamera('char', 'other');
         screenCenter('char', 'x')
         
-        makeLuaText('name', 'CHARACTER SELECTOR', 0, 0, 0);
+        makeLuaText('name', 'Select your character.', 0, 0, 0);
         addLuaText('name');
         setTextSize('name', 120);
         setObjectCamera('name', 'other');
@@ -85,6 +86,8 @@ function onStartCountdown() --enter selector mode
 		precacheImage('characters/bfPixel');
 		addCharacterToList('pico-player', 'boyfriend');
 		precacheImage('characters/Pico_FNF_assetss');
+		addCharacterToList('playable-foxa', 'boyfriend');
+		precacheImage('characters/playable-foxa');
 		addCharacterToList('senpai', 'boyfriend');
 		precacheImage('characters/senpai');
 		addCharacterToList('spirit', 'boyfriend');
@@ -185,12 +188,12 @@ end
 function onUpdatePost(elapsed)
 	if inCharSelect == true then
 		if variation == 1 then --change variation
-			json = {'bf', 'pico-player', 'senpai'}
-			name = {'BoyFriend', 'Pico', 'Senpai'}
+			json = {'bf', 'pico-player', 'playable-foxa', 'senpai'}
+			name = {'BoyFriend', 'Pico', 'Foxa', 'Senpai'}
 		end
 		if variation == 2 then --change variation
-			json = {'bf-pixel', 'pico-player', 'spirit'}
-			name = {'Pixel BoyFriend', 'Pico', 'Spirit'}
+			json = {'bf-pixel', 'pico-player', 'foxa-mad', 'spirit'}
+			name = {'Pixel BoyFriend', 'Pico', 'Creation', 'Spirit'}
 		end
 		if variation < 1 then --variation cycle
 			variation = 2
