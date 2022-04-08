@@ -40,6 +40,8 @@ class MenuCharacterEditorState extends MusicBeatState
 	var defaultCharacters:Array<String> = ['dad', 'bf', 'gf'];
 
 	override function create() {
+		FlxG.sound.playMusic(Paths.music('breakfast'), 0.5);
+
 		characterFile = {
 			image: 'Menu_Dad',
 			scale: 1,
