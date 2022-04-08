@@ -96,6 +96,7 @@ class BaseOptionsMenu extends MusicBeatSubstate
 			optionText.yMult = 90;*/
 			optionText.xAdd = 200;
 			optionText.targetY = i;
+			optionText.itemType = 'Vertical';
 			grpOptions.add(optionText);
 
 			if(optionsArray[i].type == 'bool') {

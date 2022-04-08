@@ -12,11 +12,12 @@ using StringTools;
 
 class DiscordClient
 {
+	public static var isInitialized:Bool = false;
 	public function new()
 	{
 		trace("Discord Client starting...");
 		DiscordRpc.start({
-			clientID: "863222024192262205",
+			clientID: "910663189459505204",
 			onReady: onReady,
 			onError: onError,
 			onDisconnected: onDisconnected
@@ -44,7 +45,7 @@ class DiscordClient
 			details: "In the Menus",
 			state: null,
 			largeImageKey: 'icon',
-			largeImageText: "Psych Engine"
+			largeImageText: "Vs. Foxa: Story Mode"
 		});
 	}
 
@@ -65,6 +66,7 @@ class DiscordClient
 			new DiscordClient();
 		});
 		trace("Discord Client initialized");
+		isInitialized = true;
 	}
 
 	public static function changePresence(details:String, state:Null<String>, ?smallImageKey : String, ?hasStartTimestamp : Bool, ?endTimestamp: Float)
