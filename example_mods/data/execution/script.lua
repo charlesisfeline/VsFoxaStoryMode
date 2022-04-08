@@ -12,7 +12,7 @@ end
 
 function onTimerCompleted(tag, loops, loopsLeft)
 	if tag == 'startDialogue' then -- Timer completed, play dialogue
-		startDialogue('dialogue', 'mad-fox-music');
+		startDialogue('dialogue', 'creation-dialogue');
 	end
 end
 
