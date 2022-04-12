@@ -1692,18 +1692,21 @@ class PlayState extends MusicBeatState
 						var go:FlxSprite;
 						if (!skipCountdown){
 							go = new FlxSprite(0, 0);
-							go.frames = FlxAtlasFrames.fromSparrow('assets/shared/images/goAnim.png', 'assets/shared/images/goAnim.xml');
+							go.frames = FlxAtlasFrames.fromSparrow('mods/images/goAnim.png', 'mods/images/goAnim.xml');
 							go.animation.addByPrefix('go', 'GO!!', 24, false);
 							go.scrollFactor.set();
+						}
 
 						if (PlayState.isPixelStage)
-							countdownGo.setGraphicSize(Std.int(countdownGo.width * daPixelZoom));
+							go.setGraphicSize(Std.int(go.width * daPixelZoom));
 
-						countdownGo.updateHitbox();
+						go.updateHitbox();
 
-						countdownGo.screenCenter();
-						countdownGo.antialiasing = antialias;
-						add(countdownGo);
+						go.screenCenter();
+						go.antialiasing = antialias;
+						add(go);
+						go.animation.play('go');
+						boyfriend.playAnim('hey', true)
 						FlxG.sound.play(Paths.sound('introGo' + introSoundsSuffix), 0.6);
 						}
 					case 4:
