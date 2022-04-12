@@ -1706,7 +1706,7 @@ class PlayState extends MusicBeatState
 						go.antialiasing = antialias;
 						add(go);
 						go.animation.play('go');
-						boyfriend.playAnim('hey', true)
+						boyfriend.playAnim('hey', true);
 						FlxG.sound.play(Paths.sound('introGo' + introSoundsSuffix), 0.6);
 						}
 					case 4:
