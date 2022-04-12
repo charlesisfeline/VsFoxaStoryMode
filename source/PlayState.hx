@@ -1692,7 +1692,7 @@ class PlayState extends MusicBeatState
 						var go:FlxSprite;
 						if (!skipCountdown){
 							go = new FlxSprite(0, 0);
-							go.frames = FlxAtlasFrames.fromSparrow('mods/images/goAnim.png', 'mods/images/goAnim.xml');
+							go.frames = FlxAtlasFrames.fromSparrow('assets/shared/images/goAnim.png', 'assets/shared/images/goAnim.xml');
 							go.animation.addByPrefix('go', 'GO!!', 24, false);
 							go.scrollFactor.set();
 
@@ -1704,11 +1704,9 @@ class PlayState extends MusicBeatState
 						countdownGo.screenCenter();
 						countdownGo.antialiasing = antialias;
 						add(countdownGo);
-						boyfriend.playAnim('hey', true);
 						FlxG.sound.play(Paths.sound('introGo' + introSoundsSuffix), 0.6);
 						}
 					case 4:
-						//nothing lmfao
 				}
 
 				notes.forEachAlive(function(note:Note) {
