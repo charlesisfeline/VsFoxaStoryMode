@@ -10,6 +10,11 @@ local Quotes = {
     "This Engine's better than Psych!",
     "Creation will hack your computer soon...",
     "This is YOUR Daily Does of Internet",
+    "Foxa is GOD.",
+    "Screw you!",
+    "FOXA ISNT A FURRY STFU",
+    "We do a little bit of trolling",
+    "Join our discord server! https://discord.gg/r437y22jbJ",
     "I've over dosed on ketamine and I'm going to die",
     "YOUR MOTHER HUNG HERSELF!!!"
 }
