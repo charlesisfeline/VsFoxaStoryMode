@@ -5,6 +5,7 @@
 			"portrait": "creation",
 			"boxState": "angry",
 			"expression": "",
+                        "sound": "foxamad_d",
 			"text": "I CAN'T TAKE THIS ANYMORE. "
 		},
 		{
@@ -12,13 +13,15 @@
 			"portrait": "bf",
 			"boxState": "angry",
 			"expression": "shocked",
-			"text": " "
+                        "sound": "bf_d",
+			"text": "..."
 		},
 		{
 			"speed": 0.05,
 			"portrait": "creation",
 			"boxState": "angry",
 			"expression": "talk",
+                        "sound": "foxamad_d",
 			"text": "I GAVE YOU A WARNING."
 		},
 		{
@@ -26,6 +29,7 @@
 			"portrait": "creation",
 			"boxState": "angry",
 			"expression": "talk",
+                        "sound": "foxamad_d",
 			"text": "AND EVEN AFTER THAT..."
 		},
 		{
@@ -33,6 +37,7 @@
 			"portrait": "creation",
 			"boxState": "angry",
 			"expression": "talk",
+                        "sound": "foxamad_d",
 			"text": "YOU STILL REFUSED TO LISTEN."
 		},
 		{
@@ -40,6 +45,7 @@
 			"portrait": "creation",
 			"boxState": "angry",
 			"expression": "talk",
+                        "sound": "foxamad_d",
 			"text": "WHY CAN'T YOU JUST LEAVE!?"
 		},
 		{
@@ -47,6 +53,7 @@
 			"portrait": "Creation",
 			"boxState": "angry",
 			"expression": "talk",
+                        "sound": "foxamad_d",
 			"text": "IF YOU GET PAST ME, YOU WILL REGRET IT."
 		},
 		{
@@ -54,6 +61,7 @@
 			"portrait": "creation",
 			"boxState": "angry",
 			"expression": "talk",
+                        "sound": "foxamad_d",
 			"text": "EVEN NOW..."
 		},
 		{
@@ -61,6 +69,7 @@
 			"portrait": "creation",
 			"boxState": "angry",
 			"expression": "talk",
+                        "sound": "foxamad_d",
 			"text": "IT'S OVER FOR YOU. "
 		},
 		{
@@ -68,6 +77,7 @@
 			"portrait": "creation",
 			"boxState": "angry",
 			"expression": "talk",
+                        "sound": "foxamad_d",
 			"text": "CURSE YOU."
 		},
 		{
@@ -75,6 +85,7 @@
 			"portrait": "creation",
 			"boxState": "angry",
 			"expression": "talk",
+                        "sound": "foxamad_d",
 			"text": "I HOPE YOU AREN'T REMEMBERED."
 		},
 		{
@@ -82,6 +93,7 @@
 			"portrait": "creation",
 			"boxState": "angry",
 			"expression": "talk",
+                        "sound": "foxamad_d",
 			"text": "THIS IS YOUR FAULT. "
 		},
 		{
@@ -89,6 +101,7 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "shocked",
+                        "sound": "bf_d",
 			"text": "beep..."
 		}
 	]

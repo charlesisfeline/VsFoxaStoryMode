@@ -5,6 +5,7 @@
 			"portrait": "port",
 			"boxState": "normal",
 			"expression": "",
+                        "sound": "foxa_d",
 			"text": "so..."
 		},
 		{
@@ -12,6 +13,7 @@
 			"portrait": "angy",
 			"boxState": "normal",
 			"expression": "",
+                        "sound": "foxa_d",
 			"text": "You really AREN'T going to leave."
 		},
 		{
@@ -19,6 +21,7 @@
 			"portrait": "angy",
 			"boxState": "normal",
 			"expression": "talk",
+                        "sound": "foxa_d",
 			"text": "Are you? "
 		},
 		{
@@ -26,6 +29,7 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "pissed",
+                        "sound": "bfa_d",
 			"text": "brep bappity  boop."
 		},
 		{
@@ -33,6 +37,7 @@
 			"portrait": "angy",
 			"boxState": "normal",
 			"expression": "talk",
+                        "sound": "foxa_d",
 			"text": "..."
 		},
 		{
@@ -40,6 +45,7 @@
 			"portrait": "port",
 			"boxState": "normal",
 			"expression": "talk",
+                        "sound": "foxa_d",
 			"text": "You know..."
 		},
 		{
@@ -47,6 +53,7 @@
 			"portrait": "angy",
 			"boxState": "normal",
 			"expression": "talk",
+                        "sound": "foxa_d",
 			"text": "You're REALLY making this harder than it needs to be..."
 		},
 		{
@@ -54,6 +61,7 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "talk",
+                        "sound": "bf_d",
 			"text": "bip bep skoo de boop"
 		},
 		{
@@ -61,6 +69,7 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "excited",
+                        "sound": "bf_d",
 			"text": "bepoobe skoop!!"
 		},
 		{
@@ -68,6 +77,7 @@
 			"portrait": "port",
 			"boxState": "normal",
 			"expression": "talk",
+                        "sound": "foxa_d",
 			"text": "...Don't make me fight you."
 		},
 		{
@@ -75,6 +85,7 @@
 			"portrait": "angy",
 			"boxState": "normal",
 			"expression": "talk",
+                        "sound": "foxa_d",
 			"text": "I really DON'T want to do this tonight..."
 		},
 		{
@@ -82,6 +93,7 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "talk",
+                        "sound": "bf_d",
 			"text": "bop beep."
 		},
 		{
@@ -89,6 +101,7 @@
 			"portrait": "port",
 			"boxState": "normal",
 			"expression": "talk",
+                        "sound": "foxa_d",
 			"text": "Please..."
 		},
 		{
@@ -96,6 +109,7 @@
 			"portrait": "port",
 			"boxState": "normal",
 			"expression": "talk",
+                        "sound": "foxa_d",
 			"text": "Just go home..."
 		},
 		{
@@ -103,6 +117,7 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "pissed",
+                        "sound": "bf_d",
 			"text": "bope bepe!!"
 		},
 		{
@@ -110,6 +125,7 @@
 			"portrait": "angy",
 			"boxState": "normal",
 			"expression": "talk",
+                        "sound": "foxa_d",
 			"text": "Listen here, you Blue haired Twit..."
 		},
 		{
@@ -117,6 +133,7 @@
 			"portrait": "port",
 			"boxState": "normal",
 			"expression": "talk",
+                        "sound": "foxa_d",
 			"text": "If you DON'T leave..."
 		},
 		{
@@ -124,6 +141,7 @@
 			"portrait": "angy",
 			"boxState": "normal",
 			"expression": "talk",
+                        "sound": "foxa_d",
 			"text": " I'll make sure you regret being born."
 		},
 		{
@@ -131,27 +149,7 @@
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "shocked",
-			"text": ""
-		},
-		{
-			"speed": 0.05,
-			"portrait": "angy",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "Mark my words..."
-		},
-		{
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "pissed",
-			"text": "beep bop bippity boop."
-		},
-		{
-			"speed": 0.05,
-			"portrait": "port",
-			"boxState": "normal",
-			"expression": "talk",
+                        "sound": "bf_d",
 			"text": "..."
 		},
 		{
@@ -159,6 +157,31 @@
 			"portrait": "angy",
 			"boxState": "normal",
 			"expression": "talk",
+                        "sound": "foxa_d",
+			"text": "Mark my words..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+                        "sound": "bf_d",
+			"text": "beep bop bippity boop."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "port",
+			"boxState": "normal",
+			"expression": "talk",
+                        "sound": "foxa_d",
+			"text": "..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "angy",
+			"boxState": "normal",
+			"expression": "talk",
+                        "sound": "foxa_d",
 			"text": "I guess I have no choice. "
 		}
 	]
