@@ -1689,9 +1689,12 @@ class PlayState extends MusicBeatState
 						});
 						FlxG.sound.play(Paths.sound('intro1' + introSoundsSuffix), 0.6);
 					case 3:
+						var go:FlxSprite;
 						if (!skipCountdown){
-						countdownGo = new FlxSprite().loadGraphic(Paths.image(introAlts[2]));
-						countdownGo.scrollFactor.set();
+							go = new FlxSprite(0, 0);
+							go.frames = FlxAtlasFrames.fromSparrow('mods/images/goAnim.png', 'mods/images/goAnim.xml');
+							go.animation.addByPrefix('go', 'GO!!', 24, false);
+							go.scrollFactor.set();
 
 						if (PlayState.isPixelStage)
 							countdownGo.setGraphicSize(Std.int(countdownGo.width * daPixelZoom));
@@ -1701,17 +1704,11 @@ class PlayState extends MusicBeatState
 						countdownGo.screenCenter();
 						countdownGo.antialiasing = antialias;
 						add(countdownGo);
-						FlxTween.tween(countdownGo, {/*y: countdownGo.y + 100,*/ alpha: 0}, Conductor.crochet / 1000, {
-							ease: FlxEase.cubeInOut,
-							onComplete: function(twn:FlxTween)
-							{
-								remove(countdownGo);
-								countdownGo.destroy();
-							}
-						});
+						boyfriend.playAnim('hey', true);
 						FlxG.sound.play(Paths.sound('introGo' + introSoundsSuffix), 0.6);
 						}
 					case 4:
+						//nothing lmfao
 				}
 
 				notes.forEachAlive(function(note:Note) {
