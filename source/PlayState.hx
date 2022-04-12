@@ -1689,23 +1689,21 @@ class PlayState extends MusicBeatState
 						});
 						FlxG.sound.play(Paths.sound('intro1' + introSoundsSuffix), 0.6);
 					case 3:
-						var go:FlxSprite;
 						if (!skipCountdown){
-							go = new FlxSprite(0, 0);
-							go.frames = FlxAtlasFrames.fromSparrow('mods/images/goAnim.png', 'mods/images/goAnim.xml');
-							go.animation.addByPrefix('go', 'GO!!', 24, false);
-							go.scrollFactor.set();
-						}
+							countdownGo = new FlxSprite(0, 0);
+							countdownGo.frames = FlxAtlasFrames.fromSparrow('mods/images/goAnim.png', 'mods/images/goAnim.xml');
+							countdownGo.animation.addByPrefix('go', 'GO!!', 24, false);
+							countdownGo.scrollFactor.set();
 
 						if (PlayState.isPixelStage)
-							go.setGraphicSize(Std.int(go.width * daPixelZoom));
+							countdownGo.setGraphicSize(Std.int(countdownGo.width * daPixelZoom));
 
-						go.updateHitbox();
+						countdownGo.updateHitbox();
 
-						go.screenCenter();
-						go.antialiasing = antialias;
-						add(go);
-						go.animation.play('go');
+						countdownGo.screenCenter();
+						countdownGo.antialiasing = antialias;
+						add(countdownGo);
+						countdownGo.animation.play('go');
 						boyfriend.playAnim('hey', true);
 						FlxG.sound.play(Paths.sound('introGo' + introSoundsSuffix), 0.6);
 						}
