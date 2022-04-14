@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "omegle idle"
+		},
+		{
+			"offsets": [
+				128,
+				16
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "omegle left"
+		},
+		{
+			"offsets": [
+				0,
+				-90
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "omegle down"
+		},
+		{
+			"offsets": [
+				0,
+				158
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "omegle up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "omegle right"
+		},
+		{
+			"offsets": [
+				570,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "stretch",
+			"loop": false,
+			"name": "omegle strect"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/omeglefoxa",
+	"position": [
+		0,
+		410
+	],
+	"healthicon": "foxa",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		209,
+		255
+	],
+	"camera_position": [
+		-140,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 2.4
+}

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="omeglefoxa.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="omegle down instance 10000" x="0" y="0" width="287" height="122" frameX="0" frameY="-44" frameWidth="287" frameHeight="166"/>
+	<SubTexture name="omegle down instance 10001" x="287" y="0" width="273" height="164" frameX="-7" frameY="0" frameWidth="287" frameHeight="166"/>
+	<SubTexture name="omegle idle instance 10000" x="560" y="0" width="287" height="226"/>
+	<SubTexture name="omegle idle instance 10001" x="847" y="0" width="287" height="215" frameX="0" frameY="-9" frameWidth="287" frameHeight="226"/>
+	<SubTexture name="omegle idle instance 10002" x="1134" y="0" width="287" height="201" frameX="0" frameY="-22" frameWidth="287" frameHeight="226"/>
+	<SubTexture name="omegle left instance 10000" x="1421" y="0" width="337" height="226"/>
+	<SubTexture name="omegle left instance 10001" x="0" y="226" width="316" height="226" frameX="-20" frameY="0" frameWidth="337" frameHeight="226"/>
+	<SubTexture name="omegle right instance 10000" x="316" y="226" width="401" height="216"/>
+	<SubTexture name="omegle right instance 10001" x="717" y="226" width="349" height="216" frameX="-6" frameY="0" frameWidth="401" frameHeight="216"/>
+	<SubTexture name="omegle strect instance 10000" x="1066" y="226" width="261" height="225" frameX="-428" frameY="0" frameWidth="1117" frameHeight="225"/>
+	<SubTexture name="omegle strect instance 10001" x="1327" y="226" width="279" height="225" frameX="-419" frameY="0" frameWidth="1117" frameHeight="225"/>
+	<SubTexture name="omegle strect instance 10002" x="1606" y="226" width="317" height="225" frameX="-400" frameY="0" frameWidth="1117" frameHeight="225"/>
+	<SubTexture name="omegle strect instance 10003" x="0" y="452" width="379" height="225" frameX="-369" frameY="0" frameWidth="1117" frameHeight="225"/>
+	<SubTexture name="omegle strect instance 10004" x="379" y="452" width="443" height="225" frameX="-337" frameY="0" frameWidth="1117" frameHeight="225"/>
+	<SubTexture name="omegle strect instance 10005" x="822" y="452" width="555" height="225" frameX="-281" frameY="0" frameWidth="1117" frameHeight="225"/>
+	<SubTexture name="omegle strect instance 10006" x="0" y="677" width="685" height="225" frameX="-216" frameY="0" frameWidth="1117" frameHeight="225"/>
+	<SubTexture name="omegle strect instance 10007" x="685" y="677" width="837" height="225" frameX="-140" frameY="0" frameWidth="1117" frameHeight="225"/>
+	<SubTexture name="omegle strect instance 10008" x="0" y="902" width="1117" height="225"/>
+	<SubTexture name="omegle up instance 10000" x="1117" y="902" width="235" height="308" frameX="-8" frameY="0" frameWidth="251" frameHeight="308"/>
+	<SubTexture name="omegle up instance 10001" x="1352" y="902" width="251" height="269" frameX="0" frameY="-38" frameWidth="251" frameHeight="308"/>
+</TextureAtlas>
