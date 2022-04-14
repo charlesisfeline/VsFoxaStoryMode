@@ -29,13 +29,13 @@ class FlashingState extends MusicBeatState
 		add(bg);
 
 		warnText = new FlxText(0, 0, FlxG.width,
-			"Hey, Hey, Hey! Join our server to\n
+			"Hey, join our server to\n
 			see the latest updates on Vs. Foxa!\n
 			Press ENTER to join the Discord.\n 
 			Press ESC to ignore.\n
 			Enjoy!",
 			32);
-		warnText.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER);
+		warnText.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		warnText.screenCenter(Y);
 		add(warnText);
 	}
@@ -52,7 +52,7 @@ class FlashingState extends MusicBeatState
 					FlxG.sound.play(Paths.sound('confirmMenu'));
 					FlxFlicker.flicker(warnText, 1, 0.1, false, true, function(flk:FlxFlicker) {
 						new FlxTimer().start(0.5, function (tmr:FlxTimer) {
-							CoolUtil.browserLoad('https://discord.gg/HBSTWGufEM');
+							CoolUtil.browserLoad('https://discord.gg/r437y22jbJ');
 						});
 					});
 				} else {
