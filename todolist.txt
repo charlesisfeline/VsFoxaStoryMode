@@ -1,0 +1,6 @@
+some shit im gonna add asap
+- music player [DONE]
+- changelog [in progress]
+- winning icons
+- script editor
+- taunt script
