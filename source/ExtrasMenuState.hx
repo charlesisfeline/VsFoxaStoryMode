@@ -21,9 +21,7 @@ using StringTools;
 class ExtrasMenuState extends MusicBeatState
 {
 	var options:Array<String> = [
-		'Low End Freeplay Menu',
-        'Changelog',
-        'Music Player'
+        'Changelog'
 	];
 	private var grpTexts:FlxTypedGroup<Alphabet>;
 	private var directories:Array<String> = [null];
@@ -80,12 +78,8 @@ class ExtrasMenuState extends MusicBeatState
 		if (controls.ACCEPT)
 		{
 			switch(options[curSelected]) {
-				case 'Low End Freeplay State':
-					LoadingState.loadAndSwitchState(new LowEndFreeplayState());
                 case 'Changelog':
                     LoadingState.loadAndSwitchState(new ChangelogSubState());
-                case 'Music Player':
-                    LoadingState.loadAndSwitchState(new MusicPlayerState());
 			}
 			FlxG.sound.music.volume = 0;
 			#if PRELOAD_ALL
