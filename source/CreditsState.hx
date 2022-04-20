@@ -85,6 +85,14 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			['Vs. Foxa Story Edition Team'],
+			['Foxa',		'foxa',		'Creator of Vs. Foxa SE',						'https://gamejolt.com/@foxathefoxx123',	'444444'],
+			['CharlesCatYT',			'charles',		'Main Programmer of Vs. Foxa SE',					'https://www.youtube.com/channel/UCogaGQOhYBgxbj_6S1rU3MQ',		'C30085'],
+			['FBI Agent',				'fbi',			'Charter of Vs. Foxa SE',				'https://gamejolt.com/@YourFellowIdiot',			'279ADC'],
+			[''],
+			['Special Thanks'],
+			['magnumsrtisswag',		'mag',	'Stage Editor',		'https://github.com/magnumsrtisswag',			'0B03FC'],
+			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',						'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',					'https://twitter.com/river_oaken',		'C30085'],
