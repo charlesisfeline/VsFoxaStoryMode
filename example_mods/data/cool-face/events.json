@@ -1,0 +1,18 @@
+{
+	"song": {
+		"speed": 2.4,
+		"stage": "whitt",
+		"player1": "bf",
+		"player2": "rwhitty",
+		"player3": null,
+		"events": [],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "foxa",
+		"bpm": 207,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Cool Face"
+	}
+}
