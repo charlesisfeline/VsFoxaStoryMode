@@ -5,6 +5,7 @@ import flixel.FlxSprite;
 import flixel.addons.display.FlxGridOverlay;
 import flixel.text.FlxText;
 
+//it  doesnt work so yeah this is scrapped
 class LowEndFreeplayState extends MusicBeatState
 {
 	// i just put it right here for testing

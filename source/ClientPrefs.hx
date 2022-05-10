@@ -9,6 +9,7 @@ import Controls;
 class ClientPrefs {
 	public static var downScroll:Bool = false;
 	public static var middleScroll:Bool = false;
+	public static var npsCounter:Bool = true;
 	public static var antiMash:Bool = true;
 	public static var showFPS:Bool = true;
 	public static var flashing:Bool = true;
@@ -92,6 +93,7 @@ class ClientPrefs {
 	public static function saveSettings() {
 		FlxG.save.data.downScroll = downScroll;
 		FlxG.save.data.middleScroll = middleScroll;
+		FlxG.save.data.npsCounter = npsCounter;
 		FlxG.save.data.antiMash = antiMash;
 		FlxG.save.data.showFPS = showFPS;
 		FlxG.save.data.flashing = flashing;
@@ -138,6 +140,9 @@ class ClientPrefs {
 		}
 		if(FlxG.save.data.middleScroll != null) {
 			middleScroll = FlxG.save.data.middleScroll;
+		}
+		if(FlxG.save.data.npsCounter != null) {
+			npsCounter = FlxG.save.data.npsCounter;
 		}
 		if(FlxG.save.data.showFPS != null) {
 			showFPS = FlxG.save.data.showFPS;
