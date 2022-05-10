@@ -70,6 +70,13 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			false);
 		addOption(option);
 
+		var option:Option = new Option('Enable Anti Mash',
+		"If checked, Anti-mash is enabled, because I like pain.",
+		'antiMash',
+		'bool',
+		true);
+		addOption(option);
+
 		/*var option:Option = new Option('Note Delay',
 			'Changes how late a note is spawned.\nUseful for preventing audio lag from wireless earphones.',
 			'noteOffset',
