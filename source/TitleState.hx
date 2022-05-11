@@ -65,9 +65,7 @@ class TitleState extends MusicBeatState
 	var ngSpr:FlxSprite;
 
 	var curWacky:Array<String> = [];
-	
-	var bgScroll:FlxBackdrop;
-	var bgFlxSprite;
+
 
 	var wackyImage:FlxSprite;
 
