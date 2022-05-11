@@ -88,6 +88,7 @@ class CreditsState extends MusicBeatState
 			['Vs. Foxa Story Edition Team'],
 			['Foxa',		'foxa',		'Creator of Vs. Foxa SE',						'https://gamejolt.com/@foxathefoxx123',	'444444'],
 			['CharlesCatYT',			'charles',		'Main Programmer of Vs. Foxa SE',					'https://www.youtube.com/channel/UCogaGQOhYBgxbj_6S1rU3MQ',		'C30085'],
+			['Shadow Shaggy',			'shadowshaggy',		'Also The Main Programmer of Vs. Foxa SE',					'https://www.youtube.com/channel/UCogaGQOhYBgxbj_6S1rU3MQ',		'C30085'],
 			['FBI Agent',				'fbi',			'Charter of Vs. Foxa SE',				'https://gamejolt.com/@YourFellowIdiot',			'279ADC'],
 			[''],
 			['Psych Engine Team'],
