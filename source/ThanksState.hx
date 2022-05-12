@@ -95,12 +95,7 @@ class ThanksState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
-		if (controls.ACCEPT == "")
-		{
-			leftState = true;
-			FlxG.switchState(new MainMenuState());
-		}
-		else if (controls.ACCEPT)
+		if (controls.ACCEPT)
 		{
 			leftState = true;
 			FlxG.switchState(new MainMenuState());
