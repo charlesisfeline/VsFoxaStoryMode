@@ -3259,7 +3259,24 @@ class PlayState extends MusicBeatState
 					if(FlxTransitionableState.skipNextTransIn) {
 						CustomFadeTransition.nextCamera = null;
 					}
-					MusicBeatState.switchState(new StoryMenuState());
+					if (storyPlaylist.length <= 0)
+						{
+							switch (curSong.toLowerCase())
+							{
+								case 'firestorm':
+										FlxG.switchState(new EndingState('goodEnding', 'goodEnding'));
+									}
+									else if (health < 0.1)
+									{
+										FlxG.switchState(new EndingState('worstEnding', 'worstEnding'));
+									}
+									else
+									{
+										FlxG.switchState(new EndingState('badEnding', 'badEnding'));
+									}
+								default:
+									FlxG.switchState(new StoryMenuState());
+							}
 
 					// if ()
 					if(!ClientPrefs.getGameplaySetting('practice', false) && !ClientPrefs.getGameplaySetting('botplay', false)) {
