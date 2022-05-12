@@ -158,11 +158,9 @@ class MainMenuState extends MusicBeatState
                else
                 menuItem.y = 60 + (i * 160);
 		
-		}
+		    }
 		
 		firstStart = false;
-			
-		}
 
 		FlxG.camera.follow(camFollowPos, null, 1);
 
