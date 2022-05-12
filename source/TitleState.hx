@@ -247,7 +247,7 @@ class TitleState extends MusicBeatState
 		logoBl.animation.addByPrefix('bump', 'logo bumpin', 24, false);
 		logoBl.animation.play('bump');
 		logoBl.updateHitbox();
-		logoBl.screenCenter();
+		//logoBl.screenCenter();
 		// logoBl.color = FlxColor.BLACK;
 
 		swagShader = new ColorSwap();
@@ -500,8 +500,6 @@ class TitleState extends MusicBeatState
 	{
 		super.beatHit();
 
-FlxTween.tween(FlxG.camera, {zoom: 0.3}, 0.3, {ease: FlxEase.quadOut, type: BACKWARD});
-
 		if(logoBl != null) 
 			logoBl.animation.play('bump', true);
 
@@ -520,7 +518,7 @@ FlxTween.tween(FlxG.camera, {zoom: 0.3}, 0.3, {ease: FlxEase.quadOut, type: BACK
 			{
 				case 1:
 					#if PSYCH_WATERMARKS
-					createCoolText(['A Insane Amount of People'], 15);
+					createCoolText(['An Insane Amount of People'], 15);
 					#else
 					createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
 					#end
@@ -575,7 +573,7 @@ FlxTween.tween(FlxG.camera, {zoom: 0.3}, 0.3, {ease: FlxEase.quadOut, type: BACK
 					addMoreText('Vs Foxa');
 				// credTextShit.text += '\nNight';
 				case 15:
-					addMoreText('Story Mode'); // credTextShit.text += '\nFunkin';
+					addMoreText('Story Edition'); // credTextShit.text += '\nFunkin';
 
 				case 16:
 					skipIntro();
