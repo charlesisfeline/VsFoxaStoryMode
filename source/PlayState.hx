@@ -3277,7 +3277,7 @@ class PlayState extends MusicBeatState
 								default:
 									FlxG.switchState(new StoryMenuState());
 							}
-
+				        }
 					// if ()
 					if(!ClientPrefs.getGameplaySetting('practice', false) && !ClientPrefs.getGameplaySetting('botplay', false)) {
 						StoryMenuState.weekCompleted.set(WeekData.weeksList[storyWeek], true);
