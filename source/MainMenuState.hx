@@ -161,9 +161,7 @@ class MainMenuState extends MusicBeatState
 		    }
 		
 		firstStart = false;
-        
-	    }
-		
+
 		FlxG.camera.follow(camFollowPos, null, 1);
 
 		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Foxa Engine BETA", 12);
