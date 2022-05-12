@@ -636,6 +636,22 @@ class ChartingState extends MusicBeatState
 	var sectionToCopy:Int = 0;
 	var notesCopied:Array<Dynamic>;
 
+	function addMiscLolUI():Void
+	{
+		var tab_group_miscthing = new FlxUI(null, UI_box);
+		tab_group_miscthing.name = 'Stuff';
+
+		var pauseLolButton:FlxButton = new FlxButton(110, 8, "Pause Menu", function()
+		{
+			openSubState(new ChartingPauseSubstate());
+		});
+
+		tab_group_miscthing.add(pauseLolButton);
+
+		UI_box.addGroup(tab_group_miscthing);
+		
+	}
+
 	function addSectionUI():Void
 	{
 		var tab_group_section = new FlxUI(null, UI_box);
