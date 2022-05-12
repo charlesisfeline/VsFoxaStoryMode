@@ -3259,12 +3259,12 @@ class PlayState extends MusicBeatState
 					if(FlxTransitionableState.skipNextTransIn) {
 						CustomFadeTransition.nextCamera = null;
 					}
-					if (storyPlaylist.length <= 0)
+					/*if (storyPlaylist.length <= 0)
 						{
 							switch (curSong.toLowerCase())
 							{
 								case 'firestorm':
-										FlxG.switchState(new EndingState('goodEnding', 'goodEnding'));
+									FlxG.switchState(new EndingState('goodEnding', 'goodEnding'));
 									else if (health < 0.1)
 									{
 										FlxG.switchState(new EndingState('worstEnding', 'worstEnding'));
@@ -3276,7 +3276,8 @@ class PlayState extends MusicBeatState
 								default:
 									FlxG.switchState(new StoryMenuState());
 							}
-				        }
+				        }*/
+						// gonna wait until someone fixes this ending code
 					// if ()
 					if(!ClientPrefs.getGameplaySetting('practice', false) && !ClientPrefs.getGameplaySetting('botplay', false)) {
 						StoryMenuState.weekCompleted.set(WeekData.weeksList[storyWeek], true);
