@@ -387,6 +387,7 @@ class PlayState extends MusicBeatState
 				boyfriend: [770, 100],
 				girlfriend: [400, 130],
 				opponent: [100, 100],
+				layerArray: []
 			};
 		}
 
@@ -674,6 +675,13 @@ class PlayState extends MusicBeatState
 					bg.antialiasing = false;
 					add(bg);
 				}
+			default: //custom stages
+				curStage = stageData.name;
+				for (layer in stageData.layerArray){
+				var loadedLayer:BGSprite = new BGSprite(layer.directory, layer.xAxis, layer.yAxis, layer.scrollX, layer.scrollY);
+				loadedLayer.setGraphicSize(Std.int(loadedLayer.width * layer.scale));
+				add(loadedLayer);
+			}
 		}
 
 		if(isPixelStage) {
