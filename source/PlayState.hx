@@ -3265,7 +3265,6 @@ class PlayState extends MusicBeatState
 							{
 								case 'firestorm':
 										FlxG.switchState(new EndingState('goodEnding', 'goodEnding'));
-									}
 									else if (health < 0.1)
 									{
 										FlxG.switchState(new EndingState('worstEnding', 'worstEnding'));
