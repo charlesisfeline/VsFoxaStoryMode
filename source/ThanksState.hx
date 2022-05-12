@@ -62,12 +62,6 @@ class ThanksState extends MusicBeatState
 			+ "\n\nPress Enter to continue.",
 			32);
 
-		if (MainMenuState.nightly != "")
-			txt.text = 
-			"You are on\n"
-			+ MainMenuState.kadeEngineVer
-			+ "\nWhich is a PRE-RELEASE BUILD!"
-			+ "\n\nReport all bugs to the author of the pre-release.\nSpace/Escape ignores this.";
 		
 		txt.setFormat("VCR OSD Mono", 32, FlxColor.fromRGB(200, 200, 200), CENTER);
 		txt.borderColor = FlxColor.BLACK;
@@ -101,7 +95,7 @@ class ThanksState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
-		if (controls.ACCEPT && MainMenuState.nightly == "")
+		if (controls.ACCEPT == "")
 		{
 			leftState = true;
 			FlxG.switchState(new MainMenuState());
