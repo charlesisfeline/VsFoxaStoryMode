@@ -45,9 +45,9 @@ class CharMenu extends MusicBeatState
 
     var names:Array<String> = [
         "Boyfriend",
-        "Boyfriend in Christmas Clothing",
-        "Torch the Dragon",
-        "Boyfriend on a Car"
+        "Foxa",
+        "Whitty",
+        "Happy Foxa"
     ];
 
     var txtOptionTitle:FlxText;
