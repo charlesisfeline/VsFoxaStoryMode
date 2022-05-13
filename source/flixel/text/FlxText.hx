@@ -1,8 +1,8 @@
 package flixel.text;
 
+import flash.display.BitmapData;
 /*  i dont care anymore
 i scrap
-import flash.display.BitmapData;
 import flash.geom.ColorTransform;
 import flash.text.TextField;
 import flash.text.TextFieldAutoSize;
