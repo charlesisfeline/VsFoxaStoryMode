@@ -54,6 +54,15 @@ class ExtrasMenuState extends MusicBeatState
 			grpTexts.add(leText);
 		}
 		
+		var textBG:FlxSprite = new FlxSprite(0, FlxG.height - 42).makeGraphic(FlxG.width, 42, 0xFF000000);
+		textBG.alpha = 0.6;
+		add(textBG);
+
+		someTxt = new FlxText(textBG.x, textBG.y + 4, FlxG.width, 'haha funny alt menu', 32);
+		someTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER);
+		someTxt.scrollFactor.set();
+		add(someTxt);
+
 		changeSelection();
 
 		FlxG.mouse.visible = false;
@@ -80,6 +89,10 @@ class ExtrasMenuState extends MusicBeatState
 			switch(options[curSelected]) {
                 case 'Changelog':
                     LoadingState.loadAndSwitchState(new ChangelogSubState());
+				case 'Freeplay':
+					LoadingState.loadAndSwitchState(new FreeplaySelectState());
+				case 'Options':
+					LoadingState.loadAndSwitchState(new options.OptionsState());
 			}
 			FlxG.sound.music.volume = 0;
 			#if PRELOAD_ALL
