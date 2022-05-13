@@ -27,7 +27,6 @@ class MainMenuState extends MusicBeatState
 {
 	public static var psychEngineVersion:String = '0.5.1-foxa'; //This is also used for Discord RPC
 	public static var curSelected:Int = 0;
-	public static var firstStart:Bool = true;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
 	private var camGame:FlxCamera;
@@ -115,9 +114,8 @@ class MainMenuState extends MusicBeatState
 			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
 			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
 			menuItem.animation.play('idle');
-			//menuItem.ID = i;
-			menuItem.x = 100;
-			//menuItem.screenCenter(X);
+			menuItem.ID = i;
+			menuItem.screenCenter(X);
 			menuItems.add(menuItem);
 			var scr:Float = (optionShit.length - 4) * 0.135;
 			if(optionShit.length < 6) scr = 0;
@@ -125,37 +123,9 @@ class MainMenuState extends MusicBeatState
 			menuItem.antialiasing = ClientPrefs.globalAntialiasing;
 			//menuItem.setGraphicSize(Std.int(menuItem.width * 0.58));
 			menuItem.updateHitbox();
-			
-			
-			switch (i) {
-					case 0: 
-						menuItem.y = 34.95;
-						menuItem.x = 299.4;
+		}
 
-					case 1: 
-						menuItem.y = 193.75;
-						menuItem.x = 569.8;
-
-					case 2:
-						menuItem.y = 393;
-						menuItem.x = 716.5;
-					case 3:
-						menuItem.x = 712.9;
-						menuItem.y = 594.75;
-			}
-			
-			
-			if(FlxG.save.data.antialiasing)
-                {
-                 menuItem.antialiasing = true;
-                }
-                menuItem.y = 60 + (i * 160);
-		
-		    }
-		
-		//firstStart = false;
-
-		//FlxG.camera.follow(camFollowPos, null, 1);
+		FlxG.camera.follow(camFollowPos, null, 1);
 
 		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Foxa Engine BETA", 12);
 		versionShit.scrollFactor.set();
@@ -264,7 +234,7 @@ class MainMenuState extends MusicBeatState
 									case 'story_mode':
 										MusicBeatState.switchState(new StoryMenuState());
 									case 'freeplay':
-										MusicBeatState.switchState(new FreeplaySelectState());
+										MusicBeatState.switchState(new FreeplayState());
 									#if MODS_ALLOWED
 									case 'mods':
 										MusicBeatState.switchState(new ModsMenuState());
@@ -299,7 +269,7 @@ class MainMenuState extends MusicBeatState
 
 		menuItems.forEach(function(spr:FlxSprite)
 		{
-			//spr.screenCenter(X);
+			spr.screenCenter(X);
 		});
 	}
 
