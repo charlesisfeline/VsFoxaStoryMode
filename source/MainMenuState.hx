@@ -293,6 +293,16 @@ class MainMenuState extends MusicBeatState
 				selectedSomethin = true;
 				MusicBeatState.switchState(new ExtrasMenuState());
 			}
+			else if (FlxG.keys.justPressed.FOUR)
+				{
+					selectedSomethin = true;
+					MusicBeatState.switchState(new FreeplaySelectState());
+				}
+			else if (FlxG.keys.justPressed.THREE)
+					{
+						selectedSomethin = true;
+						LoadingState.loadAndSwitchState(new options.OptionsState());
+					}
 		}
 
 		super.update(elapsed);
