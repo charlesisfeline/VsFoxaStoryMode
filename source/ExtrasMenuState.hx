@@ -28,7 +28,7 @@ class ExtrasMenuState extends MusicBeatState
 
 	private var curSelected = 0;
 	private var curDirectory = 0;
-	private var directoryTxt:FlxText;
+	private var someTxt:FlxText;
 
 	override function create()
 	{
