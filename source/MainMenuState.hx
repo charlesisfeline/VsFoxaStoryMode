@@ -127,7 +127,7 @@ class MainMenuState extends MusicBeatState
 			menuItem.updateHitbox();
 			
 			
-			switch (i) {
+			/*switch (i) {
 					case 0: 
 						menuItem.y = 34.95;
 						menuItem.x = 299.4;
@@ -142,7 +142,7 @@ class MainMenuState extends MusicBeatState
 					case 3:
 						menuItem.x = 712.9;
 						menuItem.y = 594.75;
-			}
+			}*/
 			
 			
 			if(FlxG.save.data.antialiasing)
