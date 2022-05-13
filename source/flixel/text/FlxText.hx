@@ -1,5 +1,7 @@
 package flixel.text;
 
+/*  i dont care anymore
+i scrap
 import flash.display.BitmapData;
 import flash.geom.ColorTransform;
 import flash.text.TextField;
