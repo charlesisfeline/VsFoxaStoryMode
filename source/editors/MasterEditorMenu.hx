@@ -76,8 +76,9 @@ class MasterEditorMenu extends MusicBeatState
 
 		var found:Int = directories.indexOf(Paths.currentModDirectory);
 		if(found > -1) curDirectory = found;
+		#if MODS_ALLOWED
 		changeDirectory();
-
+        #end
 		changeSelection();
 
 		FlxG.mouse.visible = false;
