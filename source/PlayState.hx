@@ -2363,10 +2363,10 @@ class PlayState extends MusicBeatState
 			openChartEditor();
 		}
 
-		if (FlxG.keys.justPressed.SIX && !endingSong && !inCutscene) 
+		/*if (FlxG.keys.justPressed.SIX && !endingSong && !inCutscene) 
 		{
             openStageDebug();
-		}
+		}*/
 
 		// FlxG.watch.addQuick('VOL', vocals.amplitudeLeft);
 		// FlxG.watch.addQuick('VOLRight', vocals.amplitudeRight);
@@ -2685,7 +2685,7 @@ class PlayState extends MusicBeatState
 			persistentUpdate = false;
 			paused = true;
 			cancelMusicFadeTween();
-			MusicBeatState.switchState(new editors.StageDebug());
+			//MusicBeatState.switchState(new editors.StageDebug());
 			stageDebuggingMode = true;
 	
 			#if desktop
