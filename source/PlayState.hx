@@ -2685,7 +2685,7 @@ class PlayState extends MusicBeatState
 			persistentUpdate = false;
 			paused = true;
 			cancelMusicFadeTween();
-			MusicBeatState.switchState(new StageDebug());
+			MusicBeatState.switchState(new editors.StageDebug());
 			stageDebuggingMode = true;
 	
 			#if desktop
