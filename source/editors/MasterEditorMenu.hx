@@ -27,6 +27,7 @@ class MasterEditorMenu extends MusicBeatState
 		'Dialogue Portrait Editor',
 		'Character Editor',
 		'Chart Editor',
+		'Stage Debug'
 	];
 	private var grpTexts:FlxTypedGroup<Alphabet>;
 	private var directories:Array<String> = [null];
@@ -75,8 +76,9 @@ class MasterEditorMenu extends MusicBeatState
 
 		var found:Int = directories.indexOf(Paths.currentModDirectory);
 		if(found > -1) curDirectory = found;
+		#if MODS_ALLOWED
 		changeDirectory();
-		#end
+        #end
 		changeSelection();
 
 		FlxG.mouse.visible = false;
@@ -124,6 +126,8 @@ class MasterEditorMenu extends MusicBeatState
 					LoadingState.loadAndSwitchState(new DialogueEditorState(), false);
 				case 'Chart Editor'://felt it would be cool maybe
 					LoadingState.loadAndSwitchState(new ChartingState(), false);
+				case 'Stage Editor':
+					LoadingState.loadAndSwitchState(new StageDebug()), false);
 			}
 			FlxG.sound.music.volume = 0;
 			#if PRELOAD_ALL
