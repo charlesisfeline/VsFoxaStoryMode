@@ -175,6 +175,7 @@ class PlayState extends MusicBeatState
 	private var updateTime:Bool = true;
 	public static var changedDifficulty:Bool = false;
 	public static var chartingMode:Bool = false;
+	public static var stageDebuggingMode:Bool = false;
 
 	//Gameplay settings
 	public var healthGain:Float = 1;
@@ -2362,6 +2363,11 @@ class PlayState extends MusicBeatState
 			openChartEditor();
 		}
 
+		if (FlxG.keys.justPressed.SIX && !endingSong && !inCutscene) 
+		{
+            openStageDebug();
+		}
+
 		// FlxG.watch.addQuick('VOL', vocals.amplitudeLeft);
 		// FlxG.watch.addQuick('VOLRight', vocals.amplitudeRight);
 
@@ -2673,6 +2679,19 @@ class PlayState extends MusicBeatState
 		DiscordClient.changePresence("Chart Editor", null, null, true);
 		#end
 	}
+
+	function openStageDebug()
+		{
+			persistentUpdate = false;
+			paused = true;
+			cancelMusicFadeTween();
+			MusicBeatState.switchState(new StageDebug());
+			stageDebuggingMode = true;
+	
+			#if desktop
+			DiscordClient.changePresence("Stage Debugging Tool", null, null, true);
+			#end
+		}
 
 	public var isDead:Bool = false; //Don't mess with this on Lua!!!
 	function doDeathCheck(?skipHealthCheck:Bool = false) {
@@ -3244,6 +3263,12 @@ class PlayState extends MusicBeatState
 				openChartEditor();
 				return;
 			}
+
+			if (stageDebuggingMode)
+				{
+					openStageDebug();
+					return;
+				}
 
 			if (isStoryMode)
 			{
