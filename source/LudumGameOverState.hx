@@ -19,7 +19,7 @@ class LudumGameOverState extends FlxTransitionableState
 		loser.animation.play('lose');
 		add(loser);
 
-		var restart:FlxSprite = new FlxSprite(500, 50).loadGraphic(Paths.image('restart');
+		var restart:FlxSprite = new FlxSprite(500, 50).loadGraphic(Paths.image('restart'));
 		restart.setGraphicSize(Std.int(restart.width * 0.6));
 		restart.updateHitbox();
 		restart.alpha = 0;
